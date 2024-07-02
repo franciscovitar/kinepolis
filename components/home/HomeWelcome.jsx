@@ -27,10 +27,10 @@ function HomeWelcome() {
     <div id="inicio" className="HomeWelcome-container">
       <div className="container">
         <motion.h1 {...textVariants}>
-          Tu Bienestar es nuestra Prioridad
+          Rehabilitacion, Estética y Pilates Reformer
         </motion.h1>
         <motion.h4 {...textVariants}>
-          Tu camino hacia una vida sin dolor y con mayor movilidad empieza acá.
+          Cuidate, con nuestros tratamientos
         </motion.h4>
 
         <div className="botones">
@@ -38,7 +38,7 @@ function HomeWelcome() {
             Quienes somos?
           </motion.a>
           <motion.a href="#contacto" {...linkVariants}>
-            Solicitar turno
+            Veni a mimarte
           </motion.a>
         </div>
       </div>

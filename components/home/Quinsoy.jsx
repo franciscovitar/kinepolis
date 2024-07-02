@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import Nos from "../../Images/nosotros.jpg";
+import Nos from "../../Images/yo.jpg";
 import "../styles/_diseñoWeb.scss";
 import { motion } from "framer-motion";
 
@@ -14,6 +14,12 @@ const tittleVariants = {
     y: 0,
     transition: { duration: 0.5, delay: 0.2 },
   },
+};
+
+const lineVariants = {
+  viewport: { once: true },
+  initial: { width: 5 },
+  whileInView: { width: 100, transition: { duration: 0.5, delay: 0.7 } },
 };
 
 const imageVariants = {
@@ -32,6 +38,7 @@ function Quiensoy() {
       <div className="fila">
         <div className="texto">
           <motion.h2 {...tittleVariants}>¿Quién soy?</motion.h2>
+          <motion.div className="line" {...lineVariants}></motion.div>
           <motion.p {...tittleVariants}>
             Mi nombre es <strong>Jimena Salvay</strong>,{" "}
             <strong>Licenciada en Kinesiología y Fisiatría</strong>, graduada en{" "}

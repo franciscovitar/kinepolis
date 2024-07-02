@@ -2,14 +2,14 @@
 
 import React from "react";
 import Image from "next/image";
-import Nos from "../../Images/sitioweb.jpg";
+import Nos from "../../Images/matias.jpg";
 import "../styles/_diseñoWeb.scss";
 import { motion } from "framer-motion";
 
 const lineVariants = {
   viewport: { once: true },
-  initial: { width: 0 },
-  whileInView: { width: 60, transition: { duration: 0.5, delay: 0.5 } },
+  initial: { width: 5 },
+  whileInView: { width: 100, transition: { duration: 0.5, delay: 0.7 } },
 };
 
 const textVariants = {
@@ -44,13 +44,14 @@ const imageVariants = {
 
 function DiseñoWeb() {
   return (
-    <div id="desarrollo" className="nos-container gris">
+    <div id="equipo" className="nos-container gris">
       <div className="fila">
         <motion.div {...imageVariants} className="imagen">
           <Image alt="Nosotros" title="Nosotros" src={Nos}></Image>
         </motion.div>
         <div className="texto">
           <motion.h2 {...tittleVariants}>Nuestro equipo</motion.h2>
+          <motion.div className="line" {...lineVariants}></motion.div>
           <motion.p {...textVariants}>
             Contamos con la colaboración del profesor <strong>Agustín</strong>,
             quien se desempeña en el ámbito de{" "}

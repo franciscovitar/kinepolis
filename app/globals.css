@@ -1,5 +1,12 @@
 .main {
   margin: auto;
-  background-color: #c7d5b411;
+  /* background-color: #c7d5b411; */
   color: rgb(0, 0, 0);
+}
+
+.line {
+  background-color: #7cbb74;
+  height: 3px;
+  width: 70px;
+  margin: 3px 0 10px 0;
 }

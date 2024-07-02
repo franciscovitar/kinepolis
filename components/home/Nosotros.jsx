@@ -16,6 +16,11 @@ const tittleVariants = {
   },
 };
 
+const lineVariants = {
+  viewport: { once: true },
+  initial: { width: 5 },
+  whileInView: { width: 100, transition: { duration: 0.5, delay: 0.7 } },
+};
 const imageVariants = {
   initial: { scale: 0.8, opacity: 0 },
   whileInView: {
@@ -35,6 +40,7 @@ function Nosotros() {
         </motion.div>
         <div className="texto">
           <motion.h2 {...tittleVariants}>¿Quiénes somos?</motion.h2>
+          <motion.div className="line" {...lineVariants}></motion.div>
           <motion.p {...tittleVariants}>
             Consultorio de <strong>Kinesiología y Rehabilitación</strong>,{" "}
             <strong>Estética</strong> y <strong>Pilates Reformer</strong>, con

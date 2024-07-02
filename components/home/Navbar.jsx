@@ -85,6 +85,9 @@ const NavBar = () => {
             <a title="Servicios" href="/#servicios">
               Servicios
             </a>
+            <a title="Servicios" href="/#equipo">
+              Equipo
+            </a>
             <a title="opiniones" href="/#opiniones">
               Opiniones
             </a>

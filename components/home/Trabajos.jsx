@@ -48,12 +48,12 @@ const settings = {
 };
 
 const trabajos = [
-  {
-    nombre: "Silvia Bertolotti",
-    reseña:
-      "Hace un año cuando comencé, por sugerencia de mi traumatologo, no podía ni moverme, todo era con ayuda de Jimena, hoy puedo decir que he mejorado mucho, estoy más flexible, mis dolores de rodilla han notoriamente y ni hablar de mis análisis ( todos los valores q estaban muy elevados, han bajado).  Estoy muy contenta de hacer esta actividad, tanto con Jime como con Agustín, son dos profesionales excelentes y el lugar es muy bonito.  Gracias 🙂",
-    estrellas: 5,
-  },
+  // {
+  //   nombre: "Silvia Bertolotti",
+  //   reseña:
+  //     "Hace un año cuando comencé, por sugerencia de mi traumatologo, no podía ni moverme, todo era con ayuda de Jimena, hoy puedo decir que he mejorado mucho, estoy más flexible, mis dolores de rodilla han notoriamente y ni hablar de mis análisis ( todos los valores q estaban muy elevados, han bajado).  Estoy muy contenta de hacer esta actividad, tanto con Jime como con Agustín, son dos profesionales excelentes y el lugar es muy bonito.  Gracias 🙂",
+  //   estrellas: 5,
+  // },
   {
     nombre: "Carola Mariani “Lorenza”",
     reseña:
@@ -204,7 +204,7 @@ function Trabajos() {
             transition: { duration: 0.5, delay: 0.5 },
           }}
         >
-          Veamos que opinan nuestros clientes
+          Experiencias de clientes
         </motion.h3>
       </div>
       <Slider className="elSlider" {...settings}>

@@ -30,7 +30,7 @@ function Imagen() {
     <div className="contenedor-principal-demo2">
       <div className="contenedor-secundario">
         <motion.h2 viewport={{ once: true }} {...headingVariants}>
-          Listo para no sufrir más de dolores de espalda?
+          Veni te estamos esperando!
         </motion.h2>
 
         <a target="blank" href="https://wa.me/5493415406669">

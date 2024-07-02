@@ -16,6 +16,12 @@ const paragraphVariants = {
   },
 };
 
+const lineVariants = {
+  viewport: { once: true },
+  initial: { width: 5 },
+  whileInView: { width: 100, transition: { duration: 0.5 } },
+};
+
 function Contacto() {
   const [nombre, setNombre] = useState("");
   const [mail, setMail] = useState("");
@@ -76,7 +82,7 @@ function Contacto() {
       <div className="contacto-container2">
         {" "}
         <motion.h3 {...paragraphVariants}>Contacto</motion.h3>
-        <motion.h4 {...paragraphVariants}></motion.h4>
+        <motion.div className="line mb-5" {...lineVariants}></motion.div>
         <div className="contacto">
           <div className="info">
             <motion.div {...paragraphVariants}>
@@ -90,8 +96,8 @@ function Contacto() {
               <p>+54 9 3415 40-6669</p>
             </motion.div>
             <motion.div {...paragraphVariants}>
-              <i className="bi bi-envelope"></i>
-              <h5>REDES</h5>
+              <i className="bi bi-instagram"></i>
+              <h5>Instagram</h5>
               <p>@kinepoliskinesiologia</p>
             </motion.div>
             <motion.div {...paragraphVariants}>
@@ -105,7 +111,7 @@ function Contacto() {
               </p>
             </motion.div>
           </div>
-          <motion.form {...paragraphVariants}>
+          {/* <motion.form {...paragraphVariants}>
             <input
               value={nombre}
               onChange={(e) => setNombre(e.target.value)}
@@ -137,7 +143,7 @@ function Contacto() {
             <button type="submit" onClick={handleSubmit}>
               Enviar
             </button>
-          </motion.form>
+          </motion.form> */}
         </div>
       </div>
     </div>
