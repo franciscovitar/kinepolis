@@ -109,13 +109,16 @@ const NavBar = () => {
             <a onClick={handleClick} title="Nosotros" href="/#nosotros">
               Nosotros
             </a>
+            <a onClick={handleClick} title="Quien soy" href="/#soy">
+              Quien soy
+            </a>
             <a onClick={handleClick} title="Servicios" href="/#servicios">
               Servicios
             </a>
-            <a onClick={handleClick} title=" Diseño Web" href="/#desarrollo">
-              Beneficios
+            <a onClick={handleClick} title="Servicios" href="/#equipo">
+              Equipo
             </a>
-            <a onClick={handleClick} v title="opiniones" href="/#opiniones">
+            <a onClick={handleClick} title="opiniones" href="/#opiniones">
               Opiniones
             </a>
             <a onClick={handleClick} title="Contacto" href="/#contacto">

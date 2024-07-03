@@ -59,13 +59,6 @@ function DiseñoWeb() {
             <strong>aporte cordial</strong> y{" "}
             <strong>dedicación de excelencia</strong>.
           </motion.p>
-          <motion.a
-            {...textVariants}
-            target="blank"
-            href="https://wa.me/5493415406669"
-          >
-            ¡Sacar un turno!
-          </motion.a>
         </div>
       </div>
     </div>

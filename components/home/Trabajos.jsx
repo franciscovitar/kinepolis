@@ -3,7 +3,6 @@
 import "../styles/_trabajo.scss";
 import React from "react";
 import { motion } from "framer-motion";
-
 import Slider from "react-slick";
 
 const lineVariants = {
@@ -48,12 +47,6 @@ const settings = {
 };
 
 const trabajos = [
-  // {
-  //   nombre: "Silvia Bertolotti",
-  //   reseña:
-  //     "Hace un año cuando comencé, por sugerencia de mi traumatologo, no podía ni moverme, todo era con ayuda de Jimena, hoy puedo decir que he mejorado mucho, estoy más flexible, mis dolores de rodilla han notoriamente y ni hablar de mis análisis ( todos los valores q estaban muy elevados, han bajado).  Estoy muy contenta de hacer esta actividad, tanto con Jime como con Agustín, son dos profesionales excelentes y el lugar es muy bonito.  Gracias 🙂",
-  //   estrellas: 5,
-  // },
   {
     nombre: "Carola Mariani “Lorenza”",
     reseña:
@@ -174,6 +167,14 @@ const trabajos = [
   },
 ];
 
+function renderStars(count) {
+  const stars = [];
+  for (let i = 0; i < count; i++) {
+    stars.push(<i key={i} className="bi bi-star-fill"></i>);
+  }
+  return stars;
+}
+
 function Trabajos() {
   return (
     <div id="opiniones" className="contenedor-principal-Trabajos">
@@ -211,25 +212,19 @@ function Trabajos() {
         {trabajos.map((trabajo, index) => (
           <div key={index} className="trabajos">
             <div className="trabajo">
-              {" "}
               {trabajo.reseña ? <p>- &quot;{trabajo.reseña}&quot;</p> : ""}
               <div className="npmyest">
                 <div className="estrellas">
-                  <i className="bi bi-star-fill"></i>
-                  <i className="bi bi-star-fill"></i>
-                  <i className="bi bi-star-fill"></i>
-                  <i className="bi bi-star-fill"></i>
-                  <i className="bi bi-star-fill"></i>
+                  {renderStars(trabajo.estrellas)}
                 </div>
-
                 <h4> &quot;{trabajo.nombre}&quot;</h4>
               </div>
             </div>
           </div>
         ))}
       </Slider>
-      <a href="https://wa.me/59898191219">
-        <motion.button className="boton">Dejanos ayudarte!</motion.button>
+      <a href="https://wa.me/5493415406669">
+        <motion.button className="boton">Quiero probarlo!</motion.button>
       </a>
     </div>
   );

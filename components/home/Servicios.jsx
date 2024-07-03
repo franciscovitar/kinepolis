@@ -51,51 +51,74 @@ function Servicios() {
           <i className="bi bi-bandaid"></i>
           <h3>REHABILITACIÓN TRAUMATOLÓGICA</h3>
           <p>
-            🌿 Tratamientos personalizados para rehabilitar lesiones
-            traumatológicas y mejorar tu calidad de vida.
+            Tratamientos personalizados para rehabilitar lesiones
+            traumatológicas. Mejora tu calidad de vida con nuestros
+            especialistas que utilizan técnicas avanzadas para una recuperación
+            efectiva y rápida.
           </p>
         </motion.div>
         <motion.div {...servVariants} className="servicio">
-          <i className="bi bi-spa"></i>
+          <i className="bi bi-clipboard-heart"></i>
           <h3>MASAJES DESCONTRACTURANTES</h3>
           <p>
-            💆‍♂️ Masajes especializados para aliviar tensiones y contracturas
-            musculares.
+            Masajes especializados para aliviar tensiones y contracturas
+            musculares. Relájate en un ambiente tranquilo y deja que nuestros
+            expertos eliminen tus dolores y estrés.
           </p>
         </motion.div>
         <motion.div {...servVariants} className="servicio">
           <i className="bi bi-activity"></i>
           <h3>FISIOTERAPIA</h3>
           <p>
-            🏋️‍♀️ Tratamientos de fisioterapia para mejorar la movilidad y reducir
-            el dolor.
+            Tratamientos de fisioterapia para mejorar la movilidad y reducir el
+            dolor. Rehabilitación integral para recuperar la funcionalidad de tu
+            cuerpo con ejercicios personalizados.
           </p>
         </motion.div>
-
         <motion.div {...servVariants} className="servicio">
           <i className="bi bi-lightbulb"></i>
           <h3>DEPILACIÓN LÁSER</h3>
-          <p>🎖️ Depilación indolora y eficaz para todo tipo de piel.</p>
+          <p>
+            Resultados desde la primera sesión, rápido y seguro. Aclara zonas
+            pigmentadas, combate afecciones cutáneas, disminuye vello corporal
+            progresivamente. Indolor y apto para todo tipo de pieles.
+          </p>
         </motion.div>
         <motion.div {...servVariants} className="servicio">
           <i className="bi bi-snow"></i>
           <h3>CRIOLIPOLISIS</h3>
-          <p>❄️ Elimina grasa localizada con frío sin dañar la piel.</p>
+          <p>
+            Congela y destruye la grasa localizada sin dañar la piel. Método no
+            invasivo para esculpir tu cuerpo y eliminar grasa que no desaparece
+            con dieta ni ejercicio.
+          </p>
         </motion.div>
         <motion.div {...servVariants} className="servicio">
           <i className="bi bi-magic"></i>
           <h3>RADIOFRECUENCIA FACIAL Y CORPORAL</h3>
-          <p>🌟 Rejuvenece y reafirma la piel con radiofrecuencia.</p>
+          <p>
+            Rejuvenece la piel, mejora su firmeza y elimina líneas de expresión.
+            Indolor, no invasivo, resultados desde la primera sesión. Genera
+            colágeno y elastina, suaviza y tensa la piel.
+          </p>
         </motion.div>
         <motion.div {...servVariants} className="servicio">
-          <i className="bi bi-waves"></i>
+          <i className="bi bi-droplet-half"></i>
           <h3>ULTRACAVITACIÓN</h3>
-          <p>⚡️ Reduce grasa y remodela el cuerpo con ultracavitación.</p>
+          <p>
+            Técnica avanzada para la reducción de grasa y remodelación corporal.
+            Eficaz, indoloro y no invasivo, ayuda a esculpir tu cuerpo de manera
+            segura y efectiva.
+          </p>
         </motion.div>
         <motion.div {...servVariants} className="servicio">
-          <i className="bi bi-align-center"></i>
+          <i className="bi bi-bullseye"></i>
           <h3>PILATES REFORMER</h3>
-          <p>🧘‍♀️ Mejora flexibilidad y fortalece con pilates reformer.</p>
+          <p>
+            Ejercicios de pilates con equipo reformer para mejorar flexibilidad
+            y fortalecer el cuerpo. Clases dinámicas en un ambiente ameno con
+            profesionales a cargo. ¡No te vas a arrepentir!
+          </p>
         </motion.div>
       </div>
 
@@ -105,7 +128,7 @@ function Servicios() {
           href="https://wa.me/5493415406669"
           target="_blank"
         >
-          ¡Sentite mejor hoy mismo!
+          Quiero sentirme bien!
         </motion.a>
       </div>
     </div>

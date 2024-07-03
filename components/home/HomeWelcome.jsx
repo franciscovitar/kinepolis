@@ -37,7 +37,7 @@ function HomeWelcome() {
           <motion.a title="whatsapp" href="#nosotros" {...linkVariants}>
             Quienes somos?
           </motion.a>
-          <motion.a href="#contacto" {...linkVariants}>
+          <motion.a href="https://wa.me/5493415406669" {...linkVariants}>
             Veni a mimarte
           </motion.a>
         </div>

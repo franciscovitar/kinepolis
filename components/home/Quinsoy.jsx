@@ -50,12 +50,8 @@ function Quiensoy() {
             servicios como <strong>kinesióloga</strong> y profesora en{" "}
             <strong>Kinepolis Kinesiología</strong>.
           </motion.p>
-          <motion.a
-            {...tittleVariants}
-            target="blank"
-            href="https://wa.me/5493415406669"
-          >
-            Contáctanos
+          <motion.a {...tittleVariants} href="#servicios">
+            Ver servicios
           </motion.a>
         </div>
         <motion.div {...imageVariants} className="imagen">
