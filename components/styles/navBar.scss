@@ -10,9 +10,9 @@ $transparent: #ffffff00;
     padding: 5px 30px;
     box-shadow: 1px 1px 10px #111;
 
-    // @media (max-width:700px) {
-    //     padding: 0 10px;
-    // }
+    @media (max-width:600px) {
+        padding: 10px 5px;
+    }
 
 }
 
@@ -21,9 +21,9 @@ $transparent: #ffffff00;
     background-color: #ffffff;
     padding: 10px 30px;
 
-    // @media (max-width:700px) {
-    //     padding: 0 10px;
-    // }
+    @media (max-width:600px) {
+        padding: 10px 5px;
+    }
 
 }
 
@@ -65,14 +65,14 @@ $transparent: #ffffff00;
 
                     .logo_time {
                         transition: all 1s ease;
-                        width: 150px;
-                        height: 100px;
+                        width: 260px;
+                        height: 80px;
                         margin: 0;
-                        object-fit: contain;
+                        object-fit: cover;
 
                         @media (max-width: 600px) {
                             transition: all 1s ease;
-                            width: 140px;
+                            width: 250px;
                             margin: 0;
                         }
                     }
