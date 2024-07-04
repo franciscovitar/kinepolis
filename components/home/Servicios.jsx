@@ -72,7 +72,8 @@ function Servicios() {
           <p>
             Tratamientos de fisioterapia para mejorar la movilidad y reducir el
             dolor. Rehabilitación integral para recuperar la funcionalidad de tu
-            cuerpo con ejercicios personalizados.
+            cuerpo con ejercicios personalizados. Utilizamos equipos nuevos y
+            modernos que brindan los mejores resultados.
           </p>
         </motion.div>
         <motion.div {...servVariants} className="servicio">
@@ -81,7 +82,7 @@ function Servicios() {
           <p>
             Resultados desde la primera sesión, rápido y seguro. Aclara zonas
             pigmentadas, combate afecciones cutáneas, disminuye vello corporal
-            progresivamente. Indolor y apto para todo tipo de pieles.
+            progresivamente. Indoloro y apto para todo tipo de pieles.
           </p>
         </motion.div>
         <motion.div {...servVariants} className="servicio">
@@ -98,7 +99,7 @@ function Servicios() {
           <h3>RADIOFRECUENCIA FACIAL Y CORPORAL</h3>
           <p>
             Rejuvenece la piel, mejora su firmeza y elimina líneas de expresión.
-            Indolor, no invasivo, resultados desde la primera sesión. Genera
+            Indoloro, no invasivo, resultados desde la primera sesión. Genera
             colágeno y elastina, suaviza y tensa la piel.
           </p>
         </motion.div>

@@ -53,8 +53,8 @@ function DiseñoWeb() {
           <motion.h2 {...tittleVariants}>Nuestro equipo</motion.h2>
           <motion.div className="line" {...lineVariants}></motion.div>
           <motion.p {...textVariants}>
-            Contamos con la colaboración del profesor <strong>Agustín</strong>,
-            quien se desempeña en el ámbito de{" "}
+            Contamos con la colaboración del profesor{" "}
+            <strong>Agustín Cantero</strong>, quien se desempeña en el ámbito de{" "}
             <strong>Pilates Reformer especializado</strong>, brindando su{" "}
             <strong>aporte cordial</strong> y{" "}
             <strong>dedicación de excelencia</strong>.
