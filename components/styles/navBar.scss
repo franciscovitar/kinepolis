@@ -185,7 +185,7 @@ $transparent: #ffffff00;
             }
 
             a {
-                color: #7CBB74;
+                color: #1f2f1d;
                 text-decoration: none;
                 font-size: 20px;
                 text-align: end;
@@ -194,6 +194,10 @@ $transparent: #ffffff00;
                 @media (max-width: 600px) {
                     font-size: 17px;
                 }
+
+                text-decoration: underline #7CBB74;
+                text-underline-offset: 0.3em;
+                text-decoration-thickness: 0.09em;
 
             }
 

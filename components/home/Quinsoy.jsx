@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import Nos from "../../Images/yo.jpg";
+import Nos from "../../Images/nosotros.jpg";
 import "../styles/_diseñoWeb.scss";
 import { motion } from "framer-motion";
 
@@ -54,7 +54,7 @@ function Quiensoy() {
             Ver servicios
           </motion.a>
         </div>
-        <motion.div {...imageVariants} className="imagen">
+        <motion.div {...imageVariants} className="imagen yo">
           <Image alt="Nosotros" title="Nosotros" src={Nos}></Image>
         </motion.div>
       </div>
