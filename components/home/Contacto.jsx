@@ -88,7 +88,9 @@ function Contacto() {
             <motion.div {...paragraphVariants}>
               <i className="bi bi-geo-alt"></i>
               <h5>UBICACIÓN</h5>
-              <p>Salta 3269 y San lorenzo 2520</p>
+              <p>
+                Salta 3269 <br /> San lorenzo 2520
+              </p>
             </motion.div>
             <motion.div {...paragraphVariants}>
               <i className="bi bi-whatsapp"></i>
