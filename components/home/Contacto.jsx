@@ -89,7 +89,7 @@ function Contacto() {
               <i className="bi bi-geo-alt"></i>
               <h5>UBICACIÓN</h5>
               <p>
-                Salta 3269 <br /> San lorenzo 2520
+                Salta 3269, Rosario <br /> San lorenzo 2520, Rosario
               </p>
             </motion.div>
             <motion.div {...paragraphVariants}>
