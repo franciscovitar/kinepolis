@@ -12,20 +12,30 @@ const inter = Montserrat({
 });
 
 export const metadata = {
-  title: "Kinepolis | Kinesiología integral, estética y pilates reformer",
+  title:
+    "Kinepolis | Kinesiología Integral, Estética y Pilates Reformer en Rosario",
   description:
-    "En nuestra clínica de terapias físicas, nos dedicamos a mejorar tu bienestar físico y funcional. Ofrecemos tratamientos personalizados para aliviar el dolor, mejorar la movilidad y promover tu salud general. Descubre cómo podemos ayudarte hoy mismo.",
-  keywords: ["terapias físicas", "salud física", "bienestar", "terapia manual"],
+    "Descubre Kinepolis, tu clínica de kinesiología integral en Rosario, Santa Fe. Ofrecemos tratamientos personalizados de kinesiología, estética y pilates reformer para mejorar tu bienestar físico, aliviar el dolor y aumentar tu movilidad. Visítanos hoy y mejora tu salud con nuestros expertos.",
+  keywords: [
+    "kinesiología Rosario",
+    "fisioterapia Rosario",
+    "tratamientos de kinesiología",
+    "pilates reformer Rosario",
+    "alivio del dolor",
+    "mejora de la movilidad",
+    "bienestar físico",
+    "centro de kinesiología",
+  ],
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://www.mercadoahora.com.ar/" />
+        <link rel="canonical" href="https://kinepoliskinesiologia.com/" />
         <meta
           name="google-site-verification"
-          content="cNem6k58FhHNRbzbwQui38jSHVe4cw-wdgDzxmFqANA"
+          content="jb1yXtGnz0NKvOeJ446RZD5U7yX33nD31zSM5QP8_i4"
         />
       </head>
       <body translate="no" className={inter.className}>
